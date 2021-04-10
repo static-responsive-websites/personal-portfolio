@@ -29,6 +29,10 @@
   transition: width 0.2s;
 }
 
+.change.navbar-link::before {
+  width: 130%;
+}
+
 .navbar-link:hover {
   color: #fff;
   transition: color 0.2s;
@@ -41,4 +45,8 @@
 .sticky {
   position: fixed;
   top: 0;
+}
+
+.change.navbar-link {
+  color: #fff;
 }
