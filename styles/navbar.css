@@ -5,6 +5,7 @@
   height: 4rem;
   background-color: #e41c6f;
   box-shadow: 0.2rem 0.2rem 5rem #555;
+  z-index: 99;
 }
 
 .navbar-link {
@@ -35,4 +36,9 @@
 
 .navbar-link:hover::before {
   width: 130%;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
 }
